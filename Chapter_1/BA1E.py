@@ -28,7 +28,7 @@ def findPatterns(genome, k, L, t):
 
 
 if __name__ == "__main__":
-    with open("data/rosalind_ba1e.txt", "r") as f:
+    with open("../data/Chapter_1/rosalind_ba1e.txt", "r") as f:
         genome = f.readline().strip()
         k, L, t = f.readline().strip().split()
 
